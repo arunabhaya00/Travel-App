@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sigiriya">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout10"
+        android:layout_width="462dp"
+        android:layout_height="281dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="650dp"
+            android:layout_height="506dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/dis" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:fontFamily="serif"
+            android:text="Hotel\nSigiriya"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="italic|bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.283" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-8dp"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:text="A soulful embrace of culture and history"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.937" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="ROOMS"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.804"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="OFFERS"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.928"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="OVERVIEW"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.663"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="BOOK NOW"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="33dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView33"
+            app:layout_constraintHorizontal_bias="0.23"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="171dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="90dp"
+        android:fontFamily="casual"
+        android:text="experiences"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout10" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="305dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="40dp"
+        android:text="Hotel Sigiriya is located amid all the coveted cultural, historical, and natural attractions of Sri Lanka’s Cultural Triangle. An array of things to do in Sigirya awaits to add a beguiling lustre to your vacation."
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="161dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        app:srcCompat="@drawable/vw" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="162dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView37"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        app:srcCompat="@drawable/templ" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="164dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView41"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView37"
+        app:srcCompat="@drawable/ballon" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="163dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView40"
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        app:srcCompat="@drawable/sig" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:text="VILLAGE WALK and LUNCH"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:text="HOT AIR BALLOON"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="21dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:text="SIGIRIYA ROCK CLIMBING"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView37"
+        app:layout_constraintTop_toBottomOf="@+id/imageView41"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="56dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:text="DAMBULLA CAVE TEMPLE"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
